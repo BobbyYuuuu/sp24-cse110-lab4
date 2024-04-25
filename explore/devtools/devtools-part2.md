@@ -1,0 +1,2 @@
+1. The bug is that the function is treating the two inputs as strings, so it is adding two strings together rather than adding two integers.
+2. I used the javascript parseInt() function to ensure that the two inputs that is getting added are integers rather than strings.
