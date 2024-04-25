@@ -30,4 +30,10 @@
     d. it outputs true because Boolean(2) = true if it is passed in any value excpet for values like 0 and false, hence true === true would output true since they are equal type and equal value.
 15. == checks for equal value, but the == would perform type conversion. On the other hand, === checks for equal value but does not perform tyoe convserion. For example, 2=='2' is true but 2==='2' is false because this first one is true only if type conversion was performed
 17. The result would be the array [2,4,6] because we are allowed to use a function as a parameter, then in the modifyArray function, we pass in the original array as an parameter, which is [1,2,3], then we declared a const empty array. Then inside the for loop, what it does is that it applys the doSomething function to each elements inside the parameter array, in this case, it multiplies the element by 2 and then push it into the declared array. Hence we will have 1*2, 2*2, 3*2, which is 2,4,6 pushed into the array, finally this array will be returned.
-19. 1 \n 4\n 3\n 2\n
+19. 1
+
+    4
+    
+    3
+    
+    2
